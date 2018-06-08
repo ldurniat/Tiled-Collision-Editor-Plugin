@@ -92,10 +92,10 @@ Plugin supports the following physical properties:
  - density `(number)`,
  - bounce `(number)`,
  - enableChainBody `(boolean)(false)`,
- - connectFirstAndLastChainVertex (use for chain body),
+ - connectFirstAndLastChainVertex `(boolean)`(use for chain body),
  - isSensor `(boolean)`.
 
- Additionally plugins supports non-physical properties:
+ Additionally plugin supports non-physical properties:
 
  - xScale `(number)(1)`,
  - yScale `(number)(1)`.
