@@ -85,6 +85,8 @@ Console output
 
 `local physicalData = tiledCollisionEditor.getPhysicalData( 'maps.map' )`
 
+Note: PLugin accept only maps exported to LUA format.
+
 ### Physical properties 
 
 You can specify basic properties using [custom propeties](http://docs.mapeditor.org/en/stable/manual/custom-properties/) in Tiled. That can be done by adding them to map itself or tile/object. Properties added to tile/object overrides map properties. 
