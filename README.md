@@ -2,6 +2,8 @@
 
 This plugins uses Tile Collision Editor Tool from [Tiled Map Editor](https://www.mapeditor.org) to edit shapes of objects in Corona SDK. 
 
+[Link](https://marketplace.coronalabs.com/corona-plugins/tiled-collision-editor) to plugin in Corona Marketplace.
+
 ### Quick Start Guide
 
 ```
@@ -24,6 +26,7 @@ local image2 = display.newImage( sheet, tileID + 1 )
 physics.addBody( image2, 'static', unpack( physicalData.ImageSheetNameInTiled[tileID] ) )
 ```
 Note: You don't need create layers at all in Tiled to use plugin.
+
 
 ### Functions:
 
